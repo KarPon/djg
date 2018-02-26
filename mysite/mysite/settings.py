@@ -25,7 +25,7 @@ SECRET_KEY = '=gh6$$0uy1iu#9duf0gywez^4t(lw(be=#2j6a06(v3d%f(84('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'karpon.pythonanywhere.com']
 
 
 # Application definition
@@ -118,3 +118,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
