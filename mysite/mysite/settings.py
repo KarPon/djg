@@ -25,7 +25,7 @@ SECRET_KEY = '=gh6$$0uy1iu#9duf0gywez^4t(lw(be=#2j6a06(v3d%f(84('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'karpon.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'karpon.pythonanywhere.com']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog',
 ]
 
 MIDDLEWARE = [
